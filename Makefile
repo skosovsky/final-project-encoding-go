@@ -22,7 +22,7 @@ test: ## Run an application
 	@echo "Testing ${APP} ..."
 	go test
 
-bench: ## Run an application
+bench: ## Benchmarking an application
 	@echo "Benchmarking ${APP} ..."
 	go test -bench=. .
 
